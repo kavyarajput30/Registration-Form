@@ -1,0 +1,40 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    align-items: start;
+    margin:2% 0 10% 30% ;
+
+}
+form label{
+    margin-right: 30px;
+}
+#submit{
+    color: greenyellow;
+    padding: 5px 20px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#cancel{
+    color:red;
+    padding: 5px 20px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+table{
+    margin: auto;
+}
+table,thead,tr,td{
+    border: 1px solid black;
+}
